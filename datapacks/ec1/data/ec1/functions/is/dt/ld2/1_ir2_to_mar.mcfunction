@@ -1,0 +1,1 @@
+scoreboard players operation mar cpuRegs = ir2 cpuRegs

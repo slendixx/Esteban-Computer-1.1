@@ -1,0 +1,1 @@
+scoreboard players operation aux cpuRegs = mbr2 cpuRegs
