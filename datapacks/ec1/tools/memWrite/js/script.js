@@ -23,9 +23,9 @@ const generate = function (e) {
   let command = "";
   for (let addr = 0; addr < commandNumber; addr++) {
     command = "";
-    command = `execute if score ${source} matches ${addr} run scoreboard players operation ${addr} ${dest} = ${addr} ${
+    command = `execute if score ${source} matches ${addr} run scoreboard players operation ${addr} ${dest} = ${
       "mbr" + field
-    }\n`;
+    } cpuRegs\n`;
     outputCommands += command;
   }
   output.textContent = outputCommands;

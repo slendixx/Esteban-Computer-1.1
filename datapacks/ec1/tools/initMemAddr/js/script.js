@@ -13,11 +13,7 @@ const generate = function () {
   let command = "";
   for (let addr = 0; addr < commandNumber; addr++) {
     command = "";
-    command = `scoreboard players add ${addr} m0 ${addr}\n`;
-    outputCommands += command;
-    command = `scoreboard players add ${addr} m1 0\n`;
-    outputCommands += command;
-    command = `scoreboard players add ${addr} m2 0\n`;
+    command = `scoreboard players add ${addr} mem0 ${addr}\n`;
     outputCommands += command;
   }
   output.textContent = outputCommands;
