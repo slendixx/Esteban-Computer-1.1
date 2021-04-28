@@ -20,3 +20,10 @@ scoreboard players add aux cpuRegs 0
 scoreboard players add rI cpuRegs 0
 scoreboard players add rD cpuRegs 0
 
+scoreboard players add decConv cpuRegs 1000000000
+scoreboard players add zero cpuRegs 0
+
+scoreboard players add bool1 cpuRegs 0
+scoreboard players add bool2 cpuRegs 0
+scoreboard players add bool3 cpuRegs 0
+scoreboard players add bool4 cpuRegs 0

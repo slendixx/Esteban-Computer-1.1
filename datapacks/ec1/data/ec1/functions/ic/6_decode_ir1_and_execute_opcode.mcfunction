@@ -6,6 +6,7 @@
 # 020 ld2
 # 021 ld2i
 # 030 st
+# 031 sti
 
 # Arithmetic
 # 100 add
@@ -33,6 +34,7 @@ execute if score ir1 cpuRegs matches 011 run function ec1:is/dt/ld1i/1_ir2_to_ma
 execute if score ir1 cpuRegs matches 020 run function ec1:is/dt/ld2/1_ir2_to_mar
 execute if score ir1 cpuRegs matches 021 run function ec1:is/dt/ld2i/1_ir2_to_mar
 execute if score ir1 cpuRegs matches 030 run function ec1:is/dt/st/1_r_to_br
+execute if score ir1 cpuRegs matches 031
 
 # Arith
 execute if score ir1 cpuRegs matches 100
